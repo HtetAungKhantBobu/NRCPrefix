@@ -113,7 +113,7 @@ var MMNRC = function(nrc){
 };
 
 MMNRC.prototype = {
-  inti: function(nrc){
+  init: function(nrc){
     if((this.match = regx_eng.exec(nrc))){
       this.lang = "en";
       this.state = this.match[1];
